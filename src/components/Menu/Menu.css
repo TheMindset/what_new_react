@@ -8,5 +8,21 @@ nav h2 {
 }
 
 nav span {
-  color: yellow;
+  color: brown;
+}
+
+nav button {
+  background-color: chocolate;
+  border-radius: 20px;
+  color: white;
+  margin-top: 5px;
+  outline: none;
+}
+
+nav button:hover {
+  cursor: pointer;
+}
+
+nav button:active {
+  border: 2px solid white;
 }
