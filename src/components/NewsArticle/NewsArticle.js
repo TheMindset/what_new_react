@@ -6,7 +6,7 @@ const NewsArticle = ({story}) => {
     <article>
       Article
       <img src={story.img} alt=""/>
-      <h2> {story.headline} </h2>
+      <h3> {story.headline} </h3>
       <p> {story.description} </p>
       <a href={story.url} target="blank"> More informations here</a>
     </article>

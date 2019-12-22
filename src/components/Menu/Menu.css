@@ -1,0 +1,12 @@
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav h2 {
+  color: white
+}
+
+nav span {
+  color: yellow;
+}
