@@ -1,6 +1,8 @@
 nav {
   display: flex;
   flex-direction: column;
+  grid-area: menu;
+  padding: 5px;
 }
 
 nav h2 {
@@ -14,6 +16,8 @@ nav span {
 nav button {
   background-color: chocolate;
   border-radius: 20px;
+  font-size: 1em;
+  height: 5%;
   color: white;
   margin-top: 5px;
   outline: none;
