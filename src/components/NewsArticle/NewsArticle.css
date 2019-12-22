@@ -1,24 +1,26 @@
 article {
   background: brown;
   border-radius: 5px;
-  height: 60%;
-  width: 25%;
-  margin: 10px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px;
 }
 
 a {
   border-bottom: 1px solid black;
   color: black;
-  font-size: 1.2em;
-  font-weight: 800;
-  text-decoration: none;
+  background-color: coral;
+  border-radius: 0 0 5px 5px;
 }
 
 img {
+  width: 100%;
+}
+
+.image {
   border-radius: 5px 5px 0 0;
   height: 45%;
+  overflow: hidden;
   width: 100%;
 }

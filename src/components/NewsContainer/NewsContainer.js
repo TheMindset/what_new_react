@@ -2,12 +2,12 @@ import React from 'react';
 import './NewsContainer.css'
 import NewsArticle from '../NewsArticle/NewsArticle'
 
-const NewsContainer = ({news}) => {
+const NewsContainer = ({articles}) => {
 
-  const newArticles = news.map((story, id) =>
+  const newArticles = articles.map((article, id) =>
     <NewsArticle 
       key={ id } 
-      story={story} 
+      article={article} 
     />
   )
 
