@@ -3,15 +3,26 @@ article {
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   margin: 10px;
 }
 
+h3 {
+  border-bottom: 2px solid black;
+  margin-top: 5px;
+  height: 15%;
+}
+
+p {
+  height: 12vh;
+  margin-top: 5px;
+}
+
 a {
-  border-bottom: 1px solid black;
   color: black;
   background-color: coral;
   border-radius: 0 0 5px 5px;
+  height: 3vh;
 }
 
 img {
@@ -20,7 +31,7 @@ img {
 
 .image {
   border-radius: 5px 5px 0 0;
-  height: 45%;
+  height: 250px;
   overflow: hidden;
   width: 100%;
 }
