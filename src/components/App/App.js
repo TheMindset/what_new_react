@@ -39,9 +39,10 @@ class App extends Component {
         stories.filter(story => { 
           return story.headline.toLowerCase().includes(term.toLowerCase()) || 
           story.description.toLowerCase().includes(term.toLowerCase())
-          })
+          }
         )
-      })
+      )
+    })
   }
 
   render () {
