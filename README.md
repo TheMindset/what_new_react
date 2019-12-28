@@ -4,6 +4,10 @@ This project is an introduction to React. It was build with this [Trello Board](
 
 This is a sample news article site that has 5 different categories of news articles and each article shows a picture,headline, description and a link to the full article on another website.
 
+## Screnshot
+
+![](/public/what-new.png)
+
 ### Set Up
 
 This application was built with `create-react-app`.
