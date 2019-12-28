@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsContainer should match snapshot with all data passed correctly 1`] = `
+<main>
+   
+  <NewsArticle
+    article={
+      Object {
+        "description": "Classic-rock band The Who has postponed its Denver concert, set for Sunday, Sept. 29, after an illness robbed singer Roger Daltrey of his voice, the band said on Twitter.",
+        "headline": "The Who postpones Denver Concert at the Pepsi Center",
+        "id": 1,
+        "img": "https://theknow.denverpost.com/wp-content/uploads/2016/03/CDXXTHEWHODSC_4082x.jpg",
+        "url": "https://theknow.denverpost.com/2019/09/27/the-who-postpones-denver-concert/225182/",
+      }
+    }
+    key="0"
+  />
+   
+</main>
+`;
