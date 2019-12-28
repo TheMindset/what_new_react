@@ -33,7 +33,7 @@ class App extends Component {
   }
 
   searchStories = (term) => {
-    let stories = [...local, ...health, ...technology, ...science, ...health]
+    let stories = [...this.state.current]
     this.setState({
       current: (
         stories.filter(story => { 
