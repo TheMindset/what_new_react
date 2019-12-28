@@ -6,7 +6,7 @@ This is a sample news article site that has 5 different categories of news artic
 
 ## Screnshot
 
-![](/public/what-new.png)
+![](/screenshots/what-new.png)
 
 ### Set Up
 
