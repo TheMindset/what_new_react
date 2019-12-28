@@ -34,7 +34,7 @@
     "enzyme-to-json": "^3.4.3"
   },
   "jest": {
-    "snapshotSerializer": [
+    "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ]
   }
